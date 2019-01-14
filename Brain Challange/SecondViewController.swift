@@ -8,16 +8,63 @@
 
 import UIKit
 
+import ChameleonFramework
+
+
+
 class SecondViewController: UIViewController {
 
+    
+    let defaults = UserDefaults.standard
+ 
     var gameMode = ""
+ 
+    @IBOutlet weak var highScore: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+     self.navigationController?.hidesNavigationBarHairline = true
+        
+        musicButton.isOn = defaults.bool(forKey: "MusicState")
+        
+        hintButton.isOn = defaults.bool(forKey: "HintState")
 
-        // Do any additional setup after loading the view.
     }
     
-   
+    @IBOutlet weak var hintButton: UISwitch!
+    @IBOutlet weak var musicButton: UISwitch!
+
+    
+    @IBAction func hintChanged(_ sender: UISwitch) {
+        if hintButton.isOn{
+          
+            defaults.set(true, forKey: "HintState")
+            
+        }
+        else{
+            
+            defaults.set(false, forKey: "HintState")
+        }
+    }
+    
+    @IBAction func musicChanged(_ sender: UISwitch) {
+        
+       // musicButton.isOn = !musicButton.isOn
+        //bu üstteki de true ise false yap, false ise true yap. tek satır kod!!
+        
+//        if musicButton.isOn{
+//
+//            defaults.set(true, forKey: "MusicState")
+//        }
+//        else{
+//
+//            defaults.set(false, forKey: "MusicState")
+//        }
+      
+        // yukarıdaki kod ile tamamen aynı şeyi yapıyor
+        
+        musicButton.isOn == true ? defaults.set(true, forKey: "MusicState") : defaults.set(false, forKey: "MusicState")
+        
+    }
     @IBAction func anyButtonPressed(_ sender: UIButton) {
         
         if (sender.title(for: .normal)!) == "Classic" {
@@ -45,6 +92,7 @@ class SecondViewController: UIViewController {
             
         }
     }
+    
     
     
  
