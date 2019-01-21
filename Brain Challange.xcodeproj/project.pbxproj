@@ -7,39 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F40293AC21E8816B00BA7ADD /* OHT3MQ0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F40293AB21E8816A00BA7ADD /* OHT3MQ0.jpg */; };
+		37A8B4F179690725E5ADDDB9 /* Pods_Brain_Challange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EF1C5059054066AD5EC48D /* Pods_Brain_Challange.framework */; };
 		F40293B221EAA9ED00BA7ADD /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F40293B021EAA9ED00BA7ADD /* DataModel.xcdatamodeld */; };
 		F40293BA21EACC6600BA7ADD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F40293B921EACC6600BA7ADD /* GoogleService-Info.plist */; };
-		F47575DF21E00F8F00870391 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47575DE21E00F8F00870391 /* SecondViewController.swift */; };
+		F40293C121EC139C00BA7ADD /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40293C021EC139C00BA7ADD /* HighScoreViewController.swift */; };
+		F40293C521EC199F00BA7ADD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40293C421EC199F00BA7ADD /* Message.swift */; };
+		F47575DF21E00F8F00870391 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47575DE21E00F8F00870391 /* LaunchViewController.swift */; };
+		F48F0ACB21F555D100AD33A9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48F0ACA21F555D100AD33A9 /* ResultViewController.swift */; };
 		F49219A021C043190070E836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F492199F21C043190070E836 /* AppDelegate.swift */; };
-		F49219A221C043190070E836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49219A121C043190070E836 /* ViewController.swift */; };
+		F49219A221C043190070E836 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49219A121C043190070E836 /* FirstViewController.swift */; };
 		F49219A521C043190070E836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49219A321C043190070E836 /* Main.storyboard */; };
 		F49219A721C0431B0070E836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49219A621C0431B0070E836 /* Assets.xcassets */; };
 		F49219AA21C0431B0070E836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49219A821C0431B0070E836 /* LaunchScreen.storyboard */; };
+		F4BD960E21EE8FB800A03353 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BD960D21EE8FB600A03353 /* 3.jpg */; };
+		F4BD961021EE8FFC00A03353 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BD960F21EE8FFC00A03353 /* 2.jpg */; };
+		F4BD961221EE905200A03353 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BD961121EE905200A03353 /* 1.jpg */; };
+		F4BEB30121F0C471002CB7F6 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BEB30021F0C471002CB7F6 /* 4.jpg */; };
+		F4BEB30321F290B5002CB7F6 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BEB30221F290B5002CB7F6 /* 5.jpg */; };
+		F4BEB30521F29BA3002CB7F6 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BEB30421F29BA2002CB7F6 /* 6.jpg */; };
+		F4BEB30721F29BE8002CB7F6 /* OEVLX90.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4BEB30621F29BE8002CB7F6 /* OEVLX90.jpg */; };
 		F4F9F5A921C08C5B008744E9 /* newbackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9F5A621C08C5B008744E9 /* newbackground@2x.png */; };
-		F4F9F5AA21C08C5B008744E9 /* newbackground@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9F5A721C08C5B008744E9 /* newbackground@3x.png */; };
-		F4F9F5AB21C08C5B008744E9 /* newbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9F5A821C08C5B008744E9 /* newbackground.png */; };
-		FF49118E416ACBCB01F34A9A /* Pods_Brain_Challange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE064CFE511D9F3875009FB /* Pods_Brain_Challange.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BE064CFE511D9F3875009FB /* Pods_Brain_Challange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brain_Challange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		431152F3F23635D957A4F8A4 /* Pods-Brain Challange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brain Challange.release.xcconfig"; path = "Target Support Files/Pods-Brain Challange/Pods-Brain Challange.release.xcconfig"; sourceTree = "<group>"; };
-		D7BCD54420F4518367E152D2 /* Pods-Brain Challange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brain Challange.debug.xcconfig"; path = "Target Support Files/Pods-Brain Challange/Pods-Brain Challange.debug.xcconfig"; sourceTree = "<group>"; };
-		F40293AB21E8816A00BA7ADD /* OHT3MQ0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OHT3MQ0.jpg; sourceTree = "<group>"; };
+		8510FF04CFA61F6FB14591DA /* Pods-Brain Challange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brain Challange.debug.xcconfig"; path = "Target Support Files/Pods-Brain Challange/Pods-Brain Challange.debug.xcconfig"; sourceTree = "<group>"; };
+		A7EF1C5059054066AD5EC48D /* Pods_Brain_Challange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brain_Challange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E016C78AE6E26A8A9DF497A4 /* Pods-Brain Challange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brain Challange.release.xcconfig"; path = "Target Support Files/Pods-Brain Challange/Pods-Brain Challange.release.xcconfig"; sourceTree = "<group>"; };
 		F40293B121EAA9ED00BA7ADD /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		F40293B921EACC6600BA7ADD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F47575DE21E00F8F00870391 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F40293C021EC139C00BA7ADD /* HighScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
+		F40293C421EC199F00BA7ADD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F47575DE21E00F8F00870391 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		F48F0ACA21F555D100AD33A9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		F492199C21C043190070E836 /* Brain Challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F492199F21C043190070E836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F49219A121C043190070E836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F49219A121C043190070E836 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		F49219A421C043190070E836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F49219A621C0431B0070E836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49219A921C0431B0070E836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49219AB21C0431B0070E836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BD960D21EE8FB600A03353 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		F4BD960F21EE8FFC00A03353 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F4BD961121EE905200A03353 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F4BEB30021F0C471002CB7F6 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F4BEB30221F290B5002CB7F6 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F4BEB30421F29BA2002CB7F6 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		F4BEB30621F29BE8002CB7F6 /* OEVLX90.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OEVLX90.jpg; sourceTree = "<group>"; };
 		F4F9F5A621C08C5B008744E9 /* newbackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newbackground@2x.png"; sourceTree = "<group>"; };
-		F4F9F5A721C08C5B008744E9 /* newbackground@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newbackground@3x.png"; sourceTree = "<group>"; };
-		F4F9F5A821C08C5B008744E9 /* newbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,36 +61,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF49118E416ACBCB01F34A9A /* Pods_Brain_Challange.framework in Frameworks */,
+				37A8B4F179690725E5ADDDB9 /* Pods_Brain_Challange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DDF51F748239C7AF42C01CC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3BE064CFE511D9F3875009FB /* Pods_Brain_Challange.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B38EFF8E4EC8436315D9E1A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D7BCD54420F4518367E152D2 /* Pods-Brain Challange.debug.xcconfig */,
-				431152F3F23635D957A4F8A4 /* Pods-Brain Challange.release.xcconfig */,
+				8510FF04CFA61F6FB14591DA /* Pods-Brain Challange.debug.xcconfig */,
+				E016C78AE6E26A8A9DF497A4 /* Pods-Brain Challange.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3507CC5FD07221D0089BD53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF1C5059054066AD5EC48D /* Pods_Brain_Challange.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F40293BB21EC073000BA7ADD /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				F40293AB21E8816A00BA7ADD /* OHT3MQ0.jpg */,
-				F4F9F5A821C08C5B008744E9 /* newbackground.png */,
-				F4F9F5A721C08C5B008744E9 /* newbackground@3x.png */,
+				F4BEB30021F0C471002CB7F6 /* 4.jpg */,
+				F4BD961121EE905200A03353 /* 1.jpg */,
+				F4BD960F21EE8FFC00A03353 /* 2.jpg */,
+				F4BD960D21EE8FB600A03353 /* 3.jpg */,
+				F4BEB30221F290B5002CB7F6 /* 5.jpg */,
+				F4BEB30421F29BA2002CB7F6 /* 6.jpg */,
+				F4BEB30621F29BE8002CB7F6 /* OEVLX90.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -87,7 +105,7 @@
 				F492199E21C043190070E836 /* Brain Challange */,
 				F492199D21C043190070E836 /* Products */,
 				B38EFF8E4EC8436315D9E1A3 /* Pods */,
-				4DDF51F748239C7AF42C01CC /* Frameworks */,
+				C3507CC5FD07221D0089BD53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +121,12 @@
 			isa = PBXGroup;
 			children = (
 				F492199F21C043190070E836 /* AppDelegate.swift */,
-				F49219A121C043190070E836 /* ViewController.swift */,
+				F40293C421EC199F00BA7ADD /* Message.swift */,
 				F49219A321C043190070E836 /* Main.storyboard */,
-				F47575DE21E00F8F00870391 /* SecondViewController.swift */,
+				F49219A121C043190070E836 /* FirstViewController.swift */,
+				F47575DE21E00F8F00870391 /* LaunchViewController.swift */,
+				F40293C021EC139C00BA7ADD /* HighScoreViewController.swift */,
+				F48F0ACA21F555D100AD33A9 /* ResultViewController.swift */,
 				F40293B021EAA9ED00BA7ADD /* DataModel.xcdatamodeld */,
 				F49219A621C0431B0070E836 /* Assets.xcassets */,
 				F4F9F5A621C08C5B008744E9 /* newbackground@2x.png */,
@@ -124,11 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F49219AE21C0431B0070E836 /* Build configuration list for PBXNativeTarget "Brain Challange" */;
 			buildPhases = (
-				0C5304A6F15478616936C034 /* [CP] Check Pods Manifest.lock */,
+				6ADD2C2E0A2AFFA0BCA82940 /* [CP] Check Pods Manifest.lock */,
 				F492199821C043190070E836 /* Sources */,
 				F492199921C043190070E836 /* Frameworks */,
 				F492199A21C043190070E836 /* Resources */,
-				B72D446E551AF8FC42FDBA35 /* [CP] Embed Pods Frameworks */,
+				5C4632D1A6671EABF3894DD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,43 +198,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F9F5AB21C08C5B008744E9 /* newbackground.png in Resources */,
+				F4BEB30521F29BA3002CB7F6 /* 6.jpg in Resources */,
+				F4BEB30721F29BE8002CB7F6 /* OEVLX90.jpg in Resources */,
 				F40293BA21EACC6600BA7ADD /* GoogleService-Info.plist in Resources */,
-				F4F9F5AA21C08C5B008744E9 /* newbackground@3x.png in Resources */,
-				F40293AC21E8816B00BA7ADD /* OHT3MQ0.jpg in Resources */,
+				F4BEB30321F290B5002CB7F6 /* 5.jpg in Resources */,
 				F49219AA21C0431B0070E836 /* LaunchScreen.storyboard in Resources */,
+				F4BD961021EE8FFC00A03353 /* 2.jpg in Resources */,
+				F4BEB30121F0C471002CB7F6 /* 4.jpg in Resources */,
 				F49219A721C0431B0070E836 /* Assets.xcassets in Resources */,
+				F4BD960E21EE8FB800A03353 /* 3.jpg in Resources */,
 				F49219A521C043190070E836 /* Main.storyboard in Resources */,
 				F4F9F5A921C08C5B008744E9 /* newbackground@2x.png in Resources */,
+				F4BD961221EE905200A03353 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C5304A6F15478616936C034 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Brain Challange-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B72D446E551AF8FC42FDBA35 /* [CP] Embed Pods Frameworks */ = {
+		5C4632D1A6671EABF3894DD2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,6 +248,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brain Challange/Pods-Brain Challange-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6ADD2C2E0A2AFFA0BCA82940 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brain Challange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -252,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F47575DF21E00F8F00870391 /* SecondViewController.swift in Sources */,
+				F47575DF21E00F8F00870391 /* LaunchViewController.swift in Sources */,
+				F40293C121EC139C00BA7ADD /* HighScoreViewController.swift in Sources */,
+				F48F0ACB21F555D100AD33A9 /* ResultViewController.swift in Sources */,
 				F40293B221EAA9ED00BA7ADD /* DataModel.xcdatamodeld in Sources */,
-				F49219A221C043190070E836 /* ViewController.swift in Sources */,
+				F40293C521EC199F00BA7ADD /* Message.swift in Sources */,
+				F49219A221C043190070E836 /* FirstViewController.swift in Sources */,
 				F49219A021C043190070E836 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +427,31 @@
 		};
 		F49219AF21C0431B0070E836 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7BCD54420F4518367E152D2 /* Pods-Brain Challange.debug.xcconfig */;
+			baseConfigurationReference = 8510FF04CFA61F6FB14591DA /* Pods-Brain Challange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ChameleonFramework/ChameleonFramework.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DGRunkeeperSwitch/DGRunkeeperSwitch.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PWSwitch/PWSwitch.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD/SVProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuthInterop\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$PODS_CONFIGURATION_BUILD_DIR/Firebase\"";
 				INFOPLIST_FILE = "Brain Challange/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,10 +466,11 @@
 		};
 		F49219B021C0431B0070E836 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 431152F3F23635D957A4F8A4 /* Pods-Brain Challange.release.xcconfig */;
+			baseConfigurationReference = E016C78AE6E26A8A9DF497A4 /* Pods-Brain Challange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Brain Challange/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
